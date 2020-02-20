@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+body{
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    
+    color: #505962;
+}
+
+/*-- navbar style --*/
+
+.navbar{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(0,0,0,.6)!important;
+    
+    
+}
+
+.navbar-nav li{
+    padding:.7rem; 
+    
+}
+.navbar-link {
+    color: black;
+    padding-top: .8rem;
+}
+
+.navbar-link:hover{
+ color: #1ebba3;   
+}
+
+
+/*   image slider */
+.carousel-item{
+    height: 100vh;
+    
+}
+.carousel-caption{
+   position: absolute;
+    top:38%;
+    text-transform: uppercase;
+    
+    
+}
+.carousel-caption h1{
+    font-size: 3.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .5rem black;
+}
+.carousel-caption h3{
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+     text-shadow: .1rem .1rem .5rem black;
+}
+.carousel-caption a{
+    margin-top: 1.0rem;
+     border-width: medium;
+    border-radius: 0;
+    font-size: 1.1rem;
+    
+}
+.jt{
+    font-size: 3.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+     color: #000000;
+}
+.card-img-top {
+    margin: 1.1rem;
+}
+.card-img-top:hover{
+    
+   transform: scale(1.5);
+    
+}
+.mypar{
+    padding-top: 0.08rem;
+    letter-spacing: 0.08rem;
+    font-size: 1.2rem;
+    
+    
+}
+.mypar:hover{
+   
+    
+}
+.skillbox{
+    box-sizing : border-box;
+    width: 100%;
+    margin: 20px 0;
+    
+}
+.skillBox p{
+    
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+.skillBox p:nth-child(2)
+{
+    float: right;
+    position: relative;
+    top: -35px;
+}
+.skillBox:hover{
+  
+    width: 110%;
+    
+    border: 5px #11f111;
+    
+}
+.skill{
+   background: #ffffff;
+    
+    box-sizing: border-box;
+    border: 1px solid #505123;
+    border-radius: 2px;
+}
+.skillLevel{
+    background: #505962;
+    width: 100%;
+    height: 10px;
+}
+.newDiv{
+
+margin: 5px;
+height:200px;
+
+background-color: #97a19a;
+text-align: center;
+font-size: large;
+
+}
+logo{
+    background: #ffffff;
+    
+}
+.col-md-3:hover{
+   padding-top: 20px;
+   background: #ffffd0 ;   
+}
+
+footer{
+    background: #505962;
+    
+}
+@media (max-width: 767px){
+    
+
+    
+.carousel-caption h1{
+    font-size: 2.3rem;
+
+    letter-spacing: .3rem;
+   
+}
+.carousel-caption h3{
+    font-size: 1.2rem;
+    font-weight: 700;
+    letter-spacing: .3rem;
+     text-shadow: .1rem .1rem .5rem black;
+}
+.carousel-caption a{
+    margin-top: 1.0rem;
+   
+    font-size: 1rem;
+    
+}
+    
+    
+}
